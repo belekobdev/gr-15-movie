@@ -1,0 +1,29 @@
+#actor {
+	padding: 40px 0;
+	background: #181818;
+	.actor {
+		display: flex;
+		align-items: flex-start;
+		// justify-content: center;
+		padding: 20px 0;
+		overflow-x: auto;
+		&--card {
+			-webkit-box-shadow: 24px 26px 27px 13px rgba(2, 164, 255, 0.2);
+			-moz-box-shadow: 24px 26px 27px 13px rgba(2, 164, 255, 0.2);
+			box-shadow: 24px 26px 27px 13px rgba(2, 164, 255, 0.2);
+			color: white;
+			margin: 0 20px;
+			border: 2px double white;
+			padding: 5px;
+			border-radius: 10px;
+			img {
+				border-radius: 10px;
+			}
+			&__user {
+				width: 200px;
+				height: 330px;
+				object-fit: cover;
+			}
+		}
+	}
+}

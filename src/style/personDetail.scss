@@ -1,0 +1,28 @@
+#personDetail {
+	background: rgb(9, 8, 8);
+	background: radial-gradient(
+		circle,
+		rgba(9, 8, 8, 1) 41%,
+		rgba(23, 19, 19, 1) 51%,
+		rgba(155, 160, 244, 0.9136904761904762) 93%
+	);
+	
+	
+	.person {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		height: 100vh;
+		
+
+		img {
+			border-radius: 10px;
+		}
+		&--text {
+			color: white;
+			p {
+				width: 1000px;
+			}
+		}
+	}
+}

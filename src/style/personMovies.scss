@@ -1,0 +1,17 @@
+#personMovies {
+	.personMovies {
+		display: flex;
+		align-items: flex-start;
+		overflow-x: auto;
+		&--card {
+			margin: 0 20px;
+			color: white;
+			img {
+				width: 160px;
+				height: 200px;
+				object-fit: cover;
+				border-radius: 10px;
+			}
+		}
+	}
+}
